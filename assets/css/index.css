@@ -68,7 +68,7 @@ header{
 	margin-bottom: 10px;
 	padding: 7px;
 	justify-content: center;
-  	width: 500px;
+  	width: 400px;
   	text-align: left;
   	margin: auto;
   	border: 1px solid grey;
@@ -79,7 +79,7 @@ header{
 	margin: auto;
 	display: flex;
 	flex-direction: column;
-	width: 550px;
+	width: 480px;
 }
 
 .cc{
@@ -92,7 +92,7 @@ header{
 header{
 	display: flex;
 	flex-direction: column;
-	width:550px;
+	width:480px;
 	margin: auto;
 }
 
@@ -102,7 +102,7 @@ h1{
 }
 
 footer{
-	width:550px;
+	width:480px;
 	margin:auto;
 }
 
