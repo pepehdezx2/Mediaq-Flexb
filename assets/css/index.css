@@ -24,7 +24,6 @@ nav{
 background-color:gray;
 text-align:left;
 margin-left: 10px;
- 
 }
  
 ul {
@@ -34,7 +33,6 @@ ul {
 .hamburger {
 display:flex;
 justify-content:flex-end;
- 
 }
  
 main {
@@ -56,6 +54,60 @@ display:none;
 justify-content:space-around;
 }
  
+
+@media(max-width: 767px){
+
+header{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-evenly;
+	align-items:center;
+}
+
+.product{
+	margin-bottom: 10px;
+	padding: 7px;
+	justify-content: center;
+  	width: 500px;
+  	text-align: left;
+  	margin: auto;
+  	border: 1px solid grey;
+  	border-radius: 2px;
+}
+
+.main{
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	width: 550px;
+}
+
+.cc{
+	text-align: center;
+}
+.hamburger{
+	color:#ffff;
+}
+
+header{
+	display: flex;
+	flex-direction: column;
+	width:550px;
+	margin: auto;
+}
+
+h1{
+	justify-content: left;
+	margin-right:15px;
+}
+
+footer{
+	width:550px;
+	margin:auto;
+}
+
+}
+
 @media (min-width: 768px) and (max-width: 1020px){
  
 header{
@@ -64,6 +116,46 @@ flex-direction:row;
 justify-content:space-evenly;
 align-items:center;
  
+}
+
+.product{
+	margin-bottom: 10px;
+	padding: 7px;
+	justify-content: center;
+  	width: 600px;
+  	text-align: left;
+  	margin: auto;
+  	border: 1px solid grey;
+  	border-radius: 2px;
+}
+
+.main{
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	width: 780px;
+}
+
+.cc{
+	text-align: center;
+}
+.hamburger{
+	color:#ffff;
+}
+
+header{
+	width:780px;
+	margin: auto;
+}
+
+h1{
+	justify-content: left;
+	margin-right:75px;
+}
+
+footer{
+	width:780px;
+	margin:auto;
 }
  
 }
@@ -83,7 +175,58 @@ display:flex;
 flex-direction: row;
 color: white;
 justify-content: flex-end;
- 
+margin-left: 8px;
+}
+
+li{
+	padding: 10px;
+	margin-left: 8px;
+}
+
+nav{
+	width:1150px;
+	margin: auto;
+}
+
+.product{
+	padding: 7px;
+	justify-content: center;
+  	width: 350px;
+  	height: 275px;
+  	text-align: left;
+  	margin: auto;
+  	border: 1px solid grey;
+  	border-radius: 2px;
+}
+
+.main{
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	width: 1080px;
+}
+
+.cc{
+	text-align: center;
+}
+
+header{
+	width:1150px;
+	margin: auto;
+}
+
+h1{
+	justify-content: left;
+	margin-right:220px;
+}
+
+footer{
+	width:1150px;
+	margin:auto;
+}
+
+.hamburger{
+	display:none;
 }
  
 }
